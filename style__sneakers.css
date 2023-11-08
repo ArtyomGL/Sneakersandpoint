@@ -1,0 +1,168 @@
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0px;
+  margin-bottom: 0px;
+}
+
+.main__section {
+  width: 1140px;
+  padding: 32px 0;
+}
+
+.full__info {
+  padding: 48px;
+  border-radius: 50px;
+  background-color:#FFF;
+  display: flex;
+  gap: 32px;
+  flex-direction: column;
+}
+
+.basic__information {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+h2 {
+  color:#121723;
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; 
+}
+
+h3 {
+  color:#121723;
+  font-family: "Anonymous Pro",  sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.basic__text {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.text__about__sneakers__1 {
+  color: #121723;
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.about__sneakers__2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+}
+
+.about__sneakers__2 h4 {
+  color: #121723;
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about__sneakers__2 p {
+  color: #121723;
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.p__right {
+  text-align: right;
+}
+
+.about__sneakers__2__parameter__header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.about__sneakers__2__parameter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.about__sneakers__2__parameter-information {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.about__sneakers__2__parameter-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+hr {
+  height: 1px;
+  align-self: stretch;
+  background-color: #121723;
+}
+
+@media screen and (max-width: 425px) {
+  .main__section {
+    width: 343px;
+  }
+
+  .full__info {
+    padding: 24px;
+    align-self: stretch;
+    border-radius: 12px;
+  }
+
+  img {
+    width: 295px;
+    height: 172px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .text__about__sneakers__1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .about__sneakers__2 h4 {
+    font-size: 24px;
+  }
+
+  .about__sneakers__2 p {
+    font-size: 16px;
+  }
+
+  .basic__text {
+    grid-template-columns: 1fr;
+  }
+}
