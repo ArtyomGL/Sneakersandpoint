@@ -125,7 +125,7 @@ hr {
   background-color: #121723;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
   .main__section {
     width: 343px;
   }
